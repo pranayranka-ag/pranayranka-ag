@@ -1,2 +1,6 @@
 Strat/temp/
 Strat/build/
+Hog/
+.hog_test.cpp.swm
+.ninja_deps
+.ninja_log
