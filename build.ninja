@@ -1,0 +1,264 @@
+# solution build file
+# generated with premake ninja
+
+# build projects
+subninja Hog/commons/CallBackManager/build/build_CallBackManager_release.ninja
+subninja Hog/commons/CallBackManager/build/build_CallBackManager_debug.ninja
+subninja Hog/commons/CallBackManager/build/build_CallBackManager_release_raw.ninja
+subninja Hog/commons/CallBackManager/build/build_CallBackManager_debug_raw.ninja
+subninja Hog/commons/CallBackManager/build/build_CallBackManager_release_no_log.ninja
+subninja Hog/commons/ConnectorConfig/build/build_ConnectorConfig_release.ninja
+subninja Hog/commons/ConnectorConfig/build/build_ConnectorConfig_debug.ninja
+subninja Hog/commons/ConnectorConfig/build/build_ConnectorConfig_release_raw.ninja
+subninja Hog/commons/ConnectorConfig/build/build_ConnectorConfig_debug_raw.ninja
+subninja Hog/commons/ConnectorConfig/build/build_ConnectorConfig_release_no_log.ninja
+subninja Hog/commons/Execution/build/build_Execution_release.ninja
+subninja Hog/commons/Execution/build/build_Execution_debug.ninja
+subninja Hog/commons/Execution/build/build_Execution_release_raw.ninja
+subninja Hog/commons/Execution/build/build_Execution_debug_raw.ninja
+subninja Hog/commons/Execution/build/build_Execution_release_no_log.ninja
+subninja Hog/commons/ExitHandler/build/build_ExitHandler_release.ninja
+subninja Hog/commons/ExitHandler/build/build_ExitHandler_debug.ninja
+subninja Hog/commons/ExitHandler/build/build_ExitHandler_release_raw.ninja
+subninja Hog/commons/ExitHandler/build/build_ExitHandler_debug_raw.ninja
+subninja Hog/commons/ExitHandler/build/build_ExitHandler_release_no_log.ninja
+subninja Hog/commons/Helpers/build/build_Helpers_release.ninja
+subninja Hog/commons/Helpers/build/build_Helpers_debug.ninja
+subninja Hog/commons/Helpers/build/build_Helpers_release_raw.ninja
+subninja Hog/commons/Helpers/build/build_Helpers_debug_raw.ninja
+subninja Hog/commons/Helpers/build/build_Helpers_release_no_log.ninja
+subninja Hog/commons/Indicators/build/build_Indicators_release.ninja
+subninja Hog/commons/Indicators/build/build_Indicators_debug.ninja
+subninja Hog/commons/Indicators/build/build_Indicators_release_raw.ninja
+subninja Hog/commons/Indicators/build/build_Indicators_debug_raw.ninja
+subninja Hog/commons/Indicators/build/build_Indicators_release_no_log.ninja
+subninja Hog/commons/Instruments/build/build_Instruments_release.ninja
+subninja Hog/commons/Instruments/build/build_Instruments_debug.ninja
+subninja Hog/commons/Instruments/build/build_Instruments_release_raw.ninja
+subninja Hog/commons/Instruments/build/build_Instruments_debug_raw.ninja
+subninja Hog/commons/Instruments/build/build_Instruments_release_no_log.ninja
+subninja Hog/commons/MarginLotSetter/build/build_MarginLotSetter_release.ninja
+subninja Hog/commons/MarginLotSetter/build/build_MarginLotSetter_debug.ninja
+subninja Hog/commons/MarginLotSetter/build/build_MarginLotSetter_release_raw.ninja
+subninja Hog/commons/MarginLotSetter/build/build_MarginLotSetter_debug_raw.ninja
+subninja Hog/commons/MarginLotSetter/build/build_MarginLotSetter_release_no_log.ninja
+subninja Hog/commons/MarginStats/build/build_MarginStats_release.ninja
+subninja Hog/commons/MarginStats/build/build_MarginStats_debug.ninja
+subninja Hog/commons/MarginStats/build/build_MarginStats_release_raw.ninja
+subninja Hog/commons/MarginStats/build/build_MarginStats_debug_raw.ninja
+subninja Hog/commons/MarginStats/build/build_MarginStats_release_no_log.ninja
+subninja Hog/commons/Models/build/build_Models_release.ninja
+subninja Hog/commons/Models/build/build_Models_debug.ninja
+subninja Hog/commons/Models/build/build_Models_release_raw.ninja
+subninja Hog/commons/Models/build/build_Models_debug_raw.ninja
+subninja Hog/commons/Models/build/build_Models_release_no_log.ninja
+subninja Hog/commons/Params/build/build_Params_release.ninja
+subninja Hog/commons/Params/build/build_Params_debug.ninja
+subninja Hog/commons/Params/build/build_Params_release_raw.ninja
+subninja Hog/commons/Params/build/build_Params_debug_raw.ninja
+subninja Hog/commons/Params/build/build_Params_release_no_log.ninja
+subninja Hog/commons/PnLCalculator/build/build_PnLCalculator_release.ninja
+subninja Hog/commons/PnLCalculator/build/build_PnLCalculator_debug.ninja
+subninja Hog/commons/PnLCalculator/build/build_PnLCalculator_release_raw.ninja
+subninja Hog/commons/PnLCalculator/build/build_PnLCalculator_debug_raw.ninja
+subninja Hog/commons/PnLCalculator/build/build_PnLCalculator_release_no_log.ninja
+subninja Hog/commons/PriceAccess/build/build_PriceAccess_release.ninja
+subninja Hog/commons/PriceAccess/build/build_PriceAccess_debug.ninja
+subninja Hog/commons/PriceAccess/build/build_PriceAccess_release_raw.ninja
+subninja Hog/commons/PriceAccess/build/build_PriceAccess_debug_raw.ninja
+subninja Hog/commons/PriceAccess/build/build_PriceAccess_release_no_log.ninja
+subninja Hog/commons/Responses/build/build_Responses_release.ninja
+subninja Hog/commons/Responses/build/build_Responses_debug.ninja
+subninja Hog/commons/Responses/build/build_Responses_release_raw.ninja
+subninja Hog/commons/Responses/build/build_Responses_debug_raw.ninja
+subninja Hog/commons/Responses/build/build_Responses_release_no_log.ninja
+subninja Hog/commons/RiskChecker/build/build_RiskChecker_release.ninja
+subninja Hog/commons/RiskChecker/build/build_RiskChecker_debug.ninja
+subninja Hog/commons/RiskChecker/build/build_RiskChecker_release_raw.ninja
+subninja Hog/commons/RiskChecker/build/build_RiskChecker_debug_raw.ninja
+subninja Hog/commons/RiskChecker/build/build_RiskChecker_release_no_log.ninja
+subninja Hog/commons/Spot/build/build_Spot_release.ninja
+subninja Hog/commons/Spot/build/build_Spot_debug.ninja
+subninja Hog/commons/Spot/build/build_Spot_release_raw.ninja
+subninja Hog/commons/Spot/build/build_Spot_debug_raw.ninja
+subninja Hog/commons/Spot/build/build_Spot_release_no_log.ninja
+subninja Hog/commons/Stats/build/build_Stats_release.ninja
+subninja Hog/commons/Stats/build/build_Stats_debug.ninja
+subninja Hog/commons/Stats/build/build_Stats_release_raw.ninja
+subninja Hog/commons/Stats/build/build_Stats_debug_raw.ninja
+subninja Hog/commons/Stats/build/build_Stats_release_no_log.ninja
+subninja Hog/commons/SymbolLoader/build/build_SymbolLoader_release.ninja
+subninja Hog/commons/SymbolLoader/build/build_SymbolLoader_debug.ninja
+subninja Hog/commons/SymbolLoader/build/build_SymbolLoader_release_raw.ninja
+subninja Hog/commons/SymbolLoader/build/build_SymbolLoader_debug_raw.ninja
+subninja Hog/commons/SymbolLoader/build/build_SymbolLoader_release_no_log.ninja
+subninja Hog/commons/Trade/build/build_Trade_release.ninja
+subninja Hog/commons/Trade/build/build_Trade_debug.ninja
+subninja Hog/commons/Trade/build/build_Trade_release_raw.ninja
+subninja Hog/commons/Trade/build/build_Trade_debug_raw.ninja
+subninja Hog/commons/Trade/build/build_Trade_release_no_log.ninja
+subninja Hog/commons/TradeInfoDumper/build/build_TradeInfoDumper_release.ninja
+subninja Hog/commons/TradeInfoDumper/build/build_TradeInfoDumper_debug.ninja
+subninja Hog/commons/TradeInfoDumper/build/build_TradeInfoDumper_release_raw.ninja
+subninja Hog/commons/TradeInfoDumper/build/build_TradeInfoDumper_debug_raw.ninja
+subninja Hog/commons/TradeInfoDumper/build/build_TradeInfoDumper_release_no_log.ninja
+subninja Hog/commons/UniverseMaker/build/build_UniverseMaker_release.ninja
+subninja Hog/commons/UniverseMaker/build/build_UniverseMaker_debug.ninja
+subninja Hog/commons/UniverseMaker/build/build_UniverseMaker_release_raw.ninja
+subninja Hog/commons/UniverseMaker/build/build_UniverseMaker_debug_raw.ninja
+subninja Hog/commons/UniverseMaker/build/build_UniverseMaker_release_no_log.ninja
+subninja Hog/commons/Utils/build/build_Utils_release.ninja
+subninja Hog/commons/Utils/build/build_Utils_debug.ninja
+subninja Hog/commons/Utils/build/build_Utils_release_raw.ninja
+subninja Hog/commons/Utils/build/build_Utils_debug_raw.ninja
+subninja Hog/commons/Utils/build/build_Utils_release_no_log.ninja
+subninja Hog/commons/ValidityChecks/build/build_ValidityChecks_release.ninja
+subninja Hog/commons/ValidityChecks/build/build_ValidityChecks_debug.ninja
+subninja Hog/commons/ValidityChecks/build/build_ValidityChecks_release_raw.ninja
+subninja Hog/commons/ValidityChecks/build/build_ValidityChecks_debug_raw.ninja
+subninja Hog/commons/ValidityChecks/build/build_ValidityChecks_release_no_log.ninja
+subninja Strat/build/build_hog_release.ninja
+subninja Strat/build/build_hog_debug.ninja
+subninja Strat/build/build_hog_release_raw.ninja
+subninja Strat/build/build_hog_debug_raw.ninja
+subninja Strat/build/build_hog_release_no_log.ninja
+subninja Hog/commons/s_rapidjson/build/build_s_rapidjson_release.ninja
+subninja Hog/commons/s_rapidjson/build/build_s_rapidjson_debug.ninja
+subninja Hog/commons/s_rapidjson/build/build_s_rapidjson_release_raw.ninja
+subninja Hog/commons/s_rapidjson/build/build_s_rapidjson_debug_raw.ninja
+subninja Hog/commons/s_rapidjson/build/build_s_rapidjson_release_no_log.ninja
+
+# targets
+build Execution_debug: phony  Hog/commons/Execution/build/debug/libExecution.a 
+build hog_release_raw: phony  Strat/build/release_raw/hog.release_raw 
+build ExitHandler_release: phony  Hog/commons/ExitHandler/build/release/libExitHandler.a 
+build MarginLotSetter_debug_raw: phony  Hog/commons/MarginLotSetter/build/debug_raw/libMarginLotSetter.debug_raw.a 
+build UniverseMaker_debug: phony  Hog/commons/UniverseMaker/build/debug/libUniverseMaker.a 
+build Models_release_no_log: phony  Hog/commons/Models/build/release_no_log/libModels.no_log.a 
+build ValidityChecks_release_raw: phony  Hog/commons/ValidityChecks/build/release_raw/libValidityChecks.release_raw.a 
+build hog_release: phony  Strat/build/release/hog 
+build debug: phony Hog/commons/CallBackManager/build/debug/libCallBackManager.a Hog/commons/ConnectorConfig/build/debug/libConnectorConfig.a Hog/commons/Execution/build/debug/libExecution.a Hog/commons/ExitHandler/build/debug/libExitHandler.a Hog/commons/Helpers/build/debug/libHelpers.a Hog/commons/Indicators/build/debug/libIndicators.a Hog/commons/Instruments/build/debug/libInstruments.a Hog/commons/MarginLotSetter/build/debug/libMarginLotSetter.a Hog/commons/MarginStats/build/debug/libMarginStats.a Hog/commons/Models/build/debug/libModels.a Hog/commons/Params/build/debug/libParams.a Hog/commons/PnLCalculator/build/debug/libPnLCalculator.a Hog/commons/PriceAccess/build/debug/libPriceAccess.a Hog/commons/Responses/build/debug/libResponses.a Hog/commons/RiskChecker/build/debug/libRiskChecker.a Hog/commons/Spot/build/debug/libSpot.a Hog/commons/Stats/build/debug/libStats.a Hog/commons/SymbolLoader/build/debug/libSymbolLoader.a Hog/commons/Trade/build/debug/libTrade.a Hog/commons/TradeInfoDumper/build/debug/libTradeInfoDumper.a Hog/commons/UniverseMaker/build/debug/libUniverseMaker.a Hog/commons/Utils/build/debug/libUtils.a Hog/commons/ValidityChecks/build/debug/libValidityChecks.a Strat/build/debug/hog Hog/commons/s_rapidjson/build/debug/libs_rapidjson.a 
+build Utils_release: phony  Hog/commons/Utils/build/release/libUtils.a 
+build TradeInfoDumper_debug: phony  Hog/commons/TradeInfoDumper/build/debug/libTradeInfoDumper.a 
+build Trade_release: phony  Hog/commons/Trade/build/release/libTrade.a 
+build Trade_release_raw: phony  Hog/commons/Trade/build/release_raw/libTrade.release_raw.a 
+build RiskChecker_debug_raw: phony  Hog/commons/RiskChecker/build/debug_raw/libRiskChecker.debug_raw.a 
+build ValidityChecks_release: phony  Hog/commons/ValidityChecks/build/release/libValidityChecks.a 
+build Instruments_debug: phony  Hog/commons/Instruments/build/debug/libInstruments.a 
+build RiskChecker_debug: phony  Hog/commons/RiskChecker/build/debug/libRiskChecker.a 
+build Trade_debug_raw: phony  Hog/commons/Trade/build/debug_raw/libTrade.debug_raw.a 
+build Execution_debug_raw: phony  Hog/commons/Execution/build/debug_raw/libExecution.debug_raw.a 
+build MarginLotSetter_release_raw: phony  Hog/commons/MarginLotSetter/build/release_raw/libMarginLotSetter.release_raw.a 
+build release: phony Hog/commons/CallBackManager/build/release/libCallBackManager.a Hog/commons/ConnectorConfig/build/release/libConnectorConfig.a Hog/commons/Execution/build/release/libExecution.a Hog/commons/ExitHandler/build/release/libExitHandler.a Hog/commons/Helpers/build/release/libHelpers.a Hog/commons/Indicators/build/release/libIndicators.a Hog/commons/Instruments/build/release/libInstruments.a Hog/commons/MarginLotSetter/build/release/libMarginLotSetter.a Hog/commons/MarginStats/build/release/libMarginStats.a Hog/commons/Models/build/release/libModels.a Hog/commons/Params/build/release/libParams.a Hog/commons/PnLCalculator/build/release/libPnLCalculator.a Hog/commons/PriceAccess/build/release/libPriceAccess.a Hog/commons/Responses/build/release/libResponses.a Hog/commons/RiskChecker/build/release/libRiskChecker.a Hog/commons/Spot/build/release/libSpot.a Hog/commons/Stats/build/release/libStats.a Hog/commons/SymbolLoader/build/release/libSymbolLoader.a Hog/commons/Trade/build/release/libTrade.a Hog/commons/TradeInfoDumper/build/release/libTradeInfoDumper.a Hog/commons/UniverseMaker/build/release/libUniverseMaker.a Hog/commons/Utils/build/release/libUtils.a Hog/commons/ValidityChecks/build/release/libValidityChecks.a Strat/build/release/hog Hog/commons/s_rapidjson/build/release/libs_rapidjson.a 
+build ConnectorConfig_debug: phony  Hog/commons/ConnectorConfig/build/debug/libConnectorConfig.a 
+build Trade_debug: phony  Hog/commons/Trade/build/debug/libTrade.a 
+build PriceAccess_debug_raw: phony  Hog/commons/PriceAccess/build/debug_raw/libPriceAccess.debug_raw.a 
+build CallBackManager_release_no_log: phony  Hog/commons/CallBackManager/build/release_no_log/libCallBackManager.no_log.a 
+build Stats_release_raw: phony  Hog/commons/Stats/build/release_raw/libStats.release_raw.a 
+build ValidityChecks_debug: phony  Hog/commons/ValidityChecks/build/debug/libValidityChecks.a 
+build MarginLotSetter_release_no_log: phony  Hog/commons/MarginLotSetter/build/release_no_log/libMarginLotSetter.no_log.a 
+build release_raw: phony Hog/commons/CallBackManager/build/release_raw/libCallBackManager.release_raw.a Hog/commons/ConnectorConfig/build/release_raw/libConnectorConfig.release_raw.a Hog/commons/Execution/build/release_raw/libExecution.release_raw.a Hog/commons/ExitHandler/build/release_raw/libExitHandler.release_raw.a Hog/commons/Helpers/build/release_raw/libHelpers.release_raw.a Hog/commons/Indicators/build/release_raw/libIndicators.release_raw.a Hog/commons/Instruments/build/release_raw/libInstruments.release_raw.a Hog/commons/MarginLotSetter/build/release_raw/libMarginLotSetter.release_raw.a Hog/commons/MarginStats/build/release_raw/libMarginStats.release_raw.a Hog/commons/Models/build/release_raw/libModels.release_raw.a Hog/commons/Params/build/release_raw/libParams.release_raw.a Hog/commons/PnLCalculator/build/release_raw/libPnLCalculator.release_raw.a Hog/commons/PriceAccess/build/release_raw/libPriceAccess.release_raw.a Hog/commons/Responses/build/release_raw/libResponses.release_raw.a Hog/commons/RiskChecker/build/release_raw/libRiskChecker.release_raw.a Hog/commons/Spot/build/release_raw/libSpot.release_raw.a Hog/commons/Stats/build/release_raw/libStats.release_raw.a Hog/commons/SymbolLoader/build/release_raw/libSymbolLoader.release_raw.a Hog/commons/Trade/build/release_raw/libTrade.release_raw.a Hog/commons/TradeInfoDumper/build/release_raw/libTradeInfoDumper.release_raw.a Hog/commons/UniverseMaker/build/release_raw/libUniverseMaker.release_raw.a Hog/commons/Utils/build/release_raw/libUtils.release_raw.a Hog/commons/ValidityChecks/build/release_raw/libValidityChecks.release_raw.a Strat/build/release_raw/hog.release_raw Hog/commons/s_rapidjson/build/release_raw/libs_rapidjson.release_raw.a 
+build Spot_release_no_log: phony  Hog/commons/Spot/build/release_no_log/libSpot.no_log.a 
+build RiskChecker_release: phony  Hog/commons/RiskChecker/build/release/libRiskChecker.a 
+build PriceAccess_debug: phony  Hog/commons/PriceAccess/build/debug/libPriceAccess.a 
+build CallBackManager_release_raw: phony  Hog/commons/CallBackManager/build/release_raw/libCallBackManager.release_raw.a 
+build UniverseMaker_release: phony  Hog/commons/UniverseMaker/build/release/libUniverseMaker.a 
+build TradeInfoDumper_debug_raw: phony  Hog/commons/TradeInfoDumper/build/debug_raw/libTradeInfoDumper.debug_raw.a 
+build Indicators_debug_raw: phony  Hog/commons/Indicators/build/debug_raw/libIndicators.debug_raw.a 
+build ConnectorConfig_debug_raw: phony  Hog/commons/ConnectorConfig/build/debug_raw/libConnectorConfig.debug_raw.a 
+build Responses_release_no_log: phony  Hog/commons/Responses/build/release_no_log/libResponses.no_log.a 
+build Stats_release_no_log: phony  Hog/commons/Stats/build/release_no_log/libStats.no_log.a 
+build PnLCalculator_release: phony  Hog/commons/PnLCalculator/build/release/libPnLCalculator.a 
+build PnLCalculator_debug: phony  Hog/commons/PnLCalculator/build/debug/libPnLCalculator.a 
+build Helpers_release_raw: phony  Hog/commons/Helpers/build/release_raw/libHelpers.release_raw.a 
+build Stats_debug_raw: phony  Hog/commons/Stats/build/debug_raw/libStats.debug_raw.a 
+build MarginStats_release_no_log: phony  Hog/commons/MarginStats/build/release_no_log/libMarginStats.no_log.a 
+build s_rapidjson_release: phony  Hog/commons/s_rapidjson/build/release/libs_rapidjson.a 
+build TradeInfoDumper_release_no_log: phony  Hog/commons/TradeInfoDumper/build/release_no_log/libTradeInfoDumper.no_log.a 
+build PnLCalculator_debug_raw: phony  Hog/commons/PnLCalculator/build/debug_raw/libPnLCalculator.debug_raw.a 
+build Stats_release: phony  Hog/commons/Stats/build/release/libStats.a 
+build Helpers_debug_raw: phony  Hog/commons/Helpers/build/debug_raw/libHelpers.debug_raw.a 
+build Execution_release_no_log: phony  Hog/commons/Execution/build/release_no_log/libExecution.no_log.a 
+build Params_release_raw: phony  Hog/commons/Params/build/release_raw/libParams.release_raw.a 
+build UniverseMaker_debug_raw: phony  Hog/commons/UniverseMaker/build/debug_raw/libUniverseMaker.debug_raw.a 
+build CallBackManager_release: phony  Hog/commons/CallBackManager/build/release/libCallBackManager.a 
+build Indicators_release_raw: phony  Hog/commons/Indicators/build/release_raw/libIndicators.release_raw.a 
+build PriceAccess_release_raw: phony  Hog/commons/PriceAccess/build/release_raw/libPriceAccess.release_raw.a 
+build Params_release_no_log: phony  Hog/commons/Params/build/release_no_log/libParams.no_log.a 
+build release_no_log: phony Hog/commons/CallBackManager/build/release_no_log/libCallBackManager.no_log.a Hog/commons/ConnectorConfig/build/release_no_log/libConnectorConfig.no_log.a Hog/commons/Execution/build/release_no_log/libExecution.no_log.a Hog/commons/ExitHandler/build/release_no_log/libExitHandler.no_log.a Hog/commons/Helpers/build/release_no_log/libHelpers.no_log.a Hog/commons/Indicators/build/release_no_log/libIndicators.no_log.a Hog/commons/Instruments/build/release_no_log/libInstruments.no_log.a Hog/commons/MarginLotSetter/build/release_no_log/libMarginLotSetter.no_log.a Hog/commons/MarginStats/build/release_no_log/libMarginStats.no_log.a Hog/commons/Models/build/release_no_log/libModels.no_log.a Hog/commons/Params/build/release_no_log/libParams.no_log.a Hog/commons/PnLCalculator/build/release_no_log/libPnLCalculator.no_log.a Hog/commons/PriceAccess/build/release_no_log/libPriceAccess.no_log.a Hog/commons/Responses/build/release_no_log/libResponses.no_log.a Hog/commons/RiskChecker/build/release_no_log/libRiskChecker.no_log.a Hog/commons/Spot/build/release_no_log/libSpot.no_log.a Hog/commons/Stats/build/release_no_log/libStats.no_log.a Hog/commons/SymbolLoader/build/release_no_log/libSymbolLoader.no_log.a Hog/commons/Trade/build/release_no_log/libTrade.no_log.a Hog/commons/TradeInfoDumper/build/release_no_log/libTradeInfoDumper.no_log.a Hog/commons/UniverseMaker/build/release_no_log/libUniverseMaker.no_log.a Hog/commons/Utils/build/release_no_log/libUtils.no_log.a Hog/commons/ValidityChecks/build/release_no_log/libValidityChecks.no_log.a Strat/build/release_no_log/hog.no_log Hog/commons/s_rapidjson/build/release_no_log/libs_rapidjson.no_log.a 
+build Params_release: phony  Hog/commons/Params/build/release/libParams.a 
+build PriceAccess_release: phony  Hog/commons/PriceAccess/build/release/libPriceAccess.a 
+build hog_debug_raw: phony  Strat/build/debug_raw/hog.debug_raw 
+build Helpers_debug: phony  Hog/commons/Helpers/build/debug/libHelpers.a 
+build RiskChecker_release_raw: phony  Hog/commons/RiskChecker/build/release_raw/libRiskChecker.release_raw.a 
+build Instruments_debug_raw: phony  Hog/commons/Instruments/build/debug_raw/libInstruments.debug_raw.a 
+build Helpers_release: phony  Hog/commons/Helpers/build/release/libHelpers.a 
+build MarginLotSetter_debug: phony  Hog/commons/MarginLotSetter/build/debug/libMarginLotSetter.a 
+build Models_debug_raw: phony  Hog/commons/Models/build/debug_raw/libModels.debug_raw.a 
+build Spot_debug_raw: phony  Hog/commons/Spot/build/debug_raw/libSpot.debug_raw.a 
+build Utils_release_raw: phony  Hog/commons/Utils/build/release_raw/libUtils.release_raw.a 
+build ValidityChecks_release_no_log: phony  Hog/commons/ValidityChecks/build/release_no_log/libValidityChecks.no_log.a 
+build Spot_release: phony  Hog/commons/Spot/build/release/libSpot.a 
+build Instruments_release_no_log: phony  Hog/commons/Instruments/build/release_no_log/libInstruments.no_log.a 
+build ExitHandler_release_raw: phony  Hog/commons/ExitHandler/build/release_raw/libExitHandler.release_raw.a 
+build Utils_debug: phony  Hog/commons/Utils/build/debug/libUtils.a 
+build Utils_debug_raw: phony  Hog/commons/Utils/build/debug_raw/libUtils.debug_raw.a 
+build Params_debug: phony  Hog/commons/Params/build/debug/libParams.a 
+build SymbolLoader_release_no_log: phony  Hog/commons/SymbolLoader/build/release_no_log/libSymbolLoader.no_log.a 
+build ExitHandler_debug_raw: phony  Hog/commons/ExitHandler/build/debug_raw/libExitHandler.debug_raw.a 
+build CallBackManager_debug: phony  Hog/commons/CallBackManager/build/debug/libCallBackManager.a 
+build Models_release: phony  Hog/commons/Models/build/release/libModels.a 
+build MarginStats_debug: phony  Hog/commons/MarginStats/build/debug/libMarginStats.a 
+build SymbolLoader_debug: phony  Hog/commons/SymbolLoader/build/debug/libSymbolLoader.a 
+build PnLCalculator_release_no_log: phony  Hog/commons/PnLCalculator/build/release_no_log/libPnLCalculator.no_log.a 
+build ExitHandler_release_no_log: phony  Hog/commons/ExitHandler/build/release_no_log/libExitHandler.no_log.a 
+build hog_release_no_log: phony  Strat/build/release_no_log/hog.no_log 
+build ValidityChecks_debug_raw: phony  Hog/commons/ValidityChecks/build/debug_raw/libValidityChecks.debug_raw.a 
+build SymbolLoader_release: phony  Hog/commons/SymbolLoader/build/release/libSymbolLoader.a 
+build Spot_release_raw: phony  Hog/commons/Spot/build/release_raw/libSpot.release_raw.a 
+build Responses_debug: phony  Hog/commons/Responses/build/debug/libResponses.a 
+build Spot_debug: phony  Hog/commons/Spot/build/debug/libSpot.a 
+build Responses_release: phony  Hog/commons/Responses/build/release/libResponses.a 
+build s_rapidjson_release_no_log: phony  Hog/commons/s_rapidjson/build/release_no_log/libs_rapidjson.no_log.a 
+build Responses_release_raw: phony  Hog/commons/Responses/build/release_raw/libResponses.release_raw.a 
+build Responses_debug_raw: phony  Hog/commons/Responses/build/debug_raw/libResponses.debug_raw.a 
+build s_rapidjson_debug_raw: phony  Hog/commons/s_rapidjson/build/debug_raw/libs_rapidjson.debug_raw.a 
+build s_rapidjson_release_raw: phony  Hog/commons/s_rapidjson/build/release_raw/libs_rapidjson.release_raw.a 
+build SymbolLoader_debug_raw: phony  Hog/commons/SymbolLoader/build/debug_raw/libSymbolLoader.debug_raw.a 
+build s_rapidjson_debug: phony  Hog/commons/s_rapidjson/build/debug/libs_rapidjson.a 
+build MarginLotSetter_release: phony  Hog/commons/MarginLotSetter/build/release/libMarginLotSetter.a 
+build PnLCalculator_release_raw: phony  Hog/commons/PnLCalculator/build/release_raw/libPnLCalculator.release_raw.a 
+build MarginStats_release: phony  Hog/commons/MarginStats/build/release/libMarginStats.a 
+build Indicators_debug: phony  Hog/commons/Indicators/build/debug/libIndicators.a 
+build Instruments_release_raw: phony  Hog/commons/Instruments/build/release_raw/libInstruments.release_raw.a 
+build PriceAccess_release_no_log: phony  Hog/commons/PriceAccess/build/release_no_log/libPriceAccess.no_log.a 
+build ConnectorConfig_release: phony  Hog/commons/ConnectorConfig/build/release/libConnectorConfig.a 
+build Models_release_raw: phony  Hog/commons/Models/build/release_raw/libModels.release_raw.a 
+build Utils_release_no_log: phony  Hog/commons/Utils/build/release_no_log/libUtils.no_log.a 
+build MarginStats_release_raw: phony  Hog/commons/MarginStats/build/release_raw/libMarginStats.release_raw.a 
+build Trade_release_no_log: phony  Hog/commons/Trade/build/release_no_log/libTrade.no_log.a 
+build UniverseMaker_release_raw: phony  Hog/commons/UniverseMaker/build/release_raw/libUniverseMaker.release_raw.a 
+build MarginStats_debug_raw: phony  Hog/commons/MarginStats/build/debug_raw/libMarginStats.debug_raw.a 
+build UniverseMaker_release_no_log: phony  Hog/commons/UniverseMaker/build/release_no_log/libUniverseMaker.no_log.a 
+build CallBackManager_debug_raw: phony  Hog/commons/CallBackManager/build/debug_raw/libCallBackManager.debug_raw.a 
+build ConnectorConfig_release_no_log: phony  Hog/commons/ConnectorConfig/build/release_no_log/libConnectorConfig.no_log.a 
+build Stats_debug: phony  Hog/commons/Stats/build/debug/libStats.a 
+build TradeInfoDumper_release_raw: phony  Hog/commons/TradeInfoDumper/build/release_raw/libTradeInfoDumper.release_raw.a 
+build ConnectorConfig_release_raw: phony  Hog/commons/ConnectorConfig/build/release_raw/libConnectorConfig.release_raw.a 
+build TradeInfoDumper_release: phony  Hog/commons/TradeInfoDumper/build/release/libTradeInfoDumper.a 
+build Params_debug_raw: phony  Hog/commons/Params/build/debug_raw/libParams.debug_raw.a 
+build RiskChecker_release_no_log: phony  Hog/commons/RiskChecker/build/release_no_log/libRiskChecker.no_log.a 
+build Execution_release: phony  Hog/commons/Execution/build/release/libExecution.a 
+build Models_debug: phony  Hog/commons/Models/build/debug/libModels.a 
+build hog_debug: phony  Strat/build/debug/hog 
+build Instruments_release: phony  Hog/commons/Instruments/build/release/libInstruments.a 
+build SymbolLoader_release_raw: phony  Hog/commons/SymbolLoader/build/release_raw/libSymbolLoader.release_raw.a 
+build Indicators_release_no_log: phony  Hog/commons/Indicators/build/release_no_log/libIndicators.no_log.a 
+build Indicators_release: phony  Hog/commons/Indicators/build/release/libIndicators.a 
+build Helpers_release_no_log: phony  Hog/commons/Helpers/build/release_no_log/libHelpers.no_log.a 
+build ExitHandler_debug: phony  Hog/commons/ExitHandler/build/debug/libExitHandler.a 
+build debug_raw: phony Hog/commons/CallBackManager/build/debug_raw/libCallBackManager.debug_raw.a Hog/commons/ConnectorConfig/build/debug_raw/libConnectorConfig.debug_raw.a Hog/commons/Execution/build/debug_raw/libExecution.debug_raw.a Hog/commons/ExitHandler/build/debug_raw/libExitHandler.debug_raw.a Hog/commons/Helpers/build/debug_raw/libHelpers.debug_raw.a Hog/commons/Indicators/build/debug_raw/libIndicators.debug_raw.a Hog/commons/Instruments/build/debug_raw/libInstruments.debug_raw.a Hog/commons/MarginLotSetter/build/debug_raw/libMarginLotSetter.debug_raw.a Hog/commons/MarginStats/build/debug_raw/libMarginStats.debug_raw.a Hog/commons/Models/build/debug_raw/libModels.debug_raw.a Hog/commons/Params/build/debug_raw/libParams.debug_raw.a Hog/commons/PnLCalculator/build/debug_raw/libPnLCalculator.debug_raw.a Hog/commons/PriceAccess/build/debug_raw/libPriceAccess.debug_raw.a Hog/commons/Responses/build/debug_raw/libResponses.debug_raw.a Hog/commons/RiskChecker/build/debug_raw/libRiskChecker.debug_raw.a Hog/commons/Spot/build/debug_raw/libSpot.debug_raw.a Hog/commons/Stats/build/debug_raw/libStats.debug_raw.a Hog/commons/SymbolLoader/build/debug_raw/libSymbolLoader.debug_raw.a Hog/commons/Trade/build/debug_raw/libTrade.debug_raw.a Hog/commons/TradeInfoDumper/build/debug_raw/libTradeInfoDumper.debug_raw.a Hog/commons/UniverseMaker/build/debug_raw/libUniverseMaker.debug_raw.a Hog/commons/Utils/build/debug_raw/libUtils.debug_raw.a Hog/commons/ValidityChecks/build/debug_raw/libValidityChecks.debug_raw.a Strat/build/debug_raw/hog.debug_raw Hog/commons/s_rapidjson/build/debug_raw/libs_rapidjson.debug_raw.a 
+build Execution_release_raw: phony  Hog/commons/Execution/build/release_raw/libExecution.release_raw.a 
+
+# default target
+default hog_release

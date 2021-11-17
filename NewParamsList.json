@@ -1,0 +1,74 @@
+{
+    "CISurfaceCondorParams" : {
+        "delta_lower_cap": 0.2,
+        "delta_upper_cap": 0.4,
+        "no_of_lots": 1,
+        "shock_val": 0.03,
+        "mean_shock_val": 0.08,
+        "shock_scaler": 12
+    },
+    "CIConstrainedSurfaceParams" : {
+        "delta_lower_cap": 0.1,
+        "delta_upper_cap": 0.5,
+        "long_delta_lower_cap": 0.1,
+        "long_delta_upper_cap": 0.5,
+        "no_of_lots": 1,
+        "shock_val": 0.03,
+        "mean_shock_val": 0.08,
+        "shock_scaler": 12,
+        "slippage_constant_vega": 1000,
+        "slippage_constant_theta": 100,
+        "slippage_constant": 1000,
+        "liquidity_constant": 2,
+        "restart_mode": 0
+    },
+    "RandIntParams": {
+        "trade_timer": 0.75,
+        "trade_start_min": 15,
+        "trade_start_hour": 9,
+        "trade_end_hour": 9,
+        "trade_end_min": 30
+    },
+
+    "GlobalParams": {
+        "start_hour": 9,
+        "start_min": 15,
+        "end_hour": 15,
+        "end_min": 30,
+        "max_pos": 50,
+        "global_max_pos": 40,
+        "spot_type" : "spot"
+    },
+
+   
+  "SGIParams": {
+           "delta_lower_cap": 0.1,
+           "delta_upper_cap": 0.6,
+           "no_of_lots": 1,
+           "shock_val": 0.03,
+           "mean_shock_val": 0.08,
+           "shock_scaler": 12,
+	"margin":10000000.0
+       },
+
+   "RiskParams":{
+        "window_size_ttq":180,
+        "window_size_dpr":180
+   },
+   "StraddleParams": {
+          "trade_timer": 0.75,
+          "trade_start_min": 15,
+          "trade_start_hour": 9,
+          "trade_end_hour": 9,
+          "trade_end_min": 30
+      },
+    "DumpParams": {
+        "dump_frequency": 1,
+        "strike_range": 1,
+        "count_atm_separate": true,
+        "delta_upper_cap": 0.6,
+		"delta_lower_cap": 0.1
+
+    }
+
+}

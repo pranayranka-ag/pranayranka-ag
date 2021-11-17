@@ -1,0 +1,77 @@
+{
+    "my_loggers": [
+        {
+            "Logger": "TRADEFILE",
+            "name": "TRADE_banknifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "RESPONSEFILE",
+            "name": "RESPONSE_banknifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "STATSFILE",
+            "name": "STATS_banknifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "TEMPFILE",
+            "name": "TEMP_banknifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "ERRORFILE",
+            "name": "ERROR_banknifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+        {
+            "Logger": "DATAFILE",
+            "name": "DATA_banknifty",
+            "add_simulation_date": true,
+            "isNew": true
+        }
+    ],
+
+    "pos_file_path": "%SPARE%/pos_file/",
+    "pnl_file_path": "%SPARE%/pnl_file/",
+    "spot_constituents_path":
+        {
+            "BNF": "/data/processed_data/Indexes/NSEINDEX/BANKNIFTY/"
+        },   
+
+    "Interested_Instruments": [
+        {
+            "Underlier": "BANKNIFTY",
+            "IsOption": true,
+            "strike_start": 70,
+            "strike_end": 130,
+            "strike_diff": 500,
+            "Date": "%DATE%",
+            "Path": "%HOME%/dated_symbols_banknifty/",
+            "expiry" : 0
+	    },
+        {
+            "Underlier": "BANKNIFTY",
+            "IsOption": false,
+            "strike_start": -1,
+            "strike_end" : -1,
+            "strike_diff": 500,
+            "Date" : "%DATE%",
+            "Path" : "%HOME%/dated_symbols_banknifty/",
+            "expiry" : 0
+        }
+    ], 
+    "symbol_name": "NIFTY50", 
+    "connector_file_path": "%HOME%/data/configs/ConnectorNSE.cfg",
+    "my_logger_path": "/spare/local/pranka/banknifty/"
+}

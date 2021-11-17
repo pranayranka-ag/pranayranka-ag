@@ -1,0 +1,76 @@
+{
+    "my_loggers": [
+        {
+            "Logger": "TRADEFILE",
+            "name": "TRADE_nifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "RESPONSEFILE",
+            "name": "RESPONSE_nifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "STATSFILE",
+            "name": "STATS_nifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "TEMPFILE",
+            "name": "TEMP_nifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "ERRORFILE",
+            "name": "ERROR_nifty",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+        {
+            "Logger": "DATAFILE",
+            "name": "DATA_nifty",
+            "add_simulation_date": true,
+            "isNew": true
+        }
+    ],
+
+    "pos_file_path": "%SPARE%/pos_file/",
+    "pnl_file_path": "%SPARE%/pnl_file/",
+    "spot_constituents_path":
+        {
+            "NF": "/data/processed_data/Indexes/NSEINDEX/NIFTY/"
+        },   
+
+    "Interested_Instruments": [
+        {
+            "Underlier": "NIFTY",
+            "IsOption": true,
+            "strike_start": 70,
+            "strike_end" : 130,
+            "strike_diff": 500,
+            "Date" : "%DATE%",
+            "Path" : "%HOME%/dated_symbols_nifty/",
+            "expiry" : 0
+        },
+        {
+            "Underlier": "NIFTY",
+            "IsOption": true,
+            "strike_start": 70,
+            "strike_end" : 130,
+            "strike_diff": 500,
+            "Date" : "%DATE%",
+            "Path" : "%HOME%/dated_symbols_nifty/",
+            "expiry" : 3
+        }
+    ], 
+    "connector_file_path": "%HOME%/data/configs/ConnectorNSE.cfg",
+    "my_logger_path": "/spare/local/pranka/nifty/"
+}
